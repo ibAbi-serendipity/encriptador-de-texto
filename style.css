@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #98CAFF;
+    color: #052051;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
+    margin-top: 1vh;
+    margin-bottom: 1.5vh;
+}
+
+.main {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+}
+.main__textarea{
+    width: 720px;
+    height: 400px;
+    margin: 20px;
+}
+.textarea{
+    display:flex;
+    width: 695px;
+    height: 330px;
+    padding: 25px;
+    border: 0px;
+    color:#98CAFF;
+    border-radius: 10px;
+}
+.main__buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 695px;
+    padding: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.encrypt{
+    color: #D9B4D5;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    font-size: 26px;
+    background-color: #052051;
+    border-radius: 20px;
+    width: 300px;
+    height: 65px;
+    border: none;
+}
+.decrypt{
+    color: #052051;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    font-size: 26px;
+    background-color: #D9B4D5;
+    border-radius: 20px;
+    width: 300px;
+    height: 65px;
+    border: none;
+}
+.box__textarea{
+    display: flex;
+    width: 460px;
+    height: 65vh;
+    padding: 10px;
+    border: 0px;
+    color:#98CAFF;
+    border-radius: 10px;
+}
+.footer {
+    display: flex;
+    align-items: flex-end;
+}
+
