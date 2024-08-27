@@ -7,7 +7,7 @@ function encrypted() {
         .replace(/o/g, "ober")
         .replace(/u/g, "ufat");
     document.querySelector(".box__textarea").value = encrypted;
-    document.querySelector(".textarea").value = "";
+    document.querySelector(".textarea").value = text;
 }
 
 function decrypted() {
@@ -19,5 +19,10 @@ function decrypted() {
         .replace(/ober/g, "o")
         .replace(/ufat/g, "u");
     document.querySelector(".box__textarea").value = decrypted;
-    document.querySelector(".textarea").value = "";
+    document.querySelector(".textarea").value = text;
+}
+
+function copy() {
+    document.querySelector(".box__textarea").select();
+    document.execCommand("copy");
 }
