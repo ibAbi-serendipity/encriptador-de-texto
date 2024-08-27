@@ -9,22 +9,30 @@
 </head>
 <body>
     <header class="header">
-        <img class="logo" src="Logo.png">
+        <img class="logo" src="./assets/Logo.png">
     </header>
     <main class="main">
-        <section class="main__textarea">
-            <textarea class="textarea" placeholder="Ingrese el texto aqui"></textarea>
-            <div class="main__buttons">
-                <button class="encrypt">Encriptar</button>
-                <button class="decrypt">Desencriptar</button>
-            </div>
+        <section class="left">
+            <section class="main__textarea">
+                <textarea class="textarea" placeholder="Ingrese el texto aqui"></textarea>
+                <div class="main__buttons">
+                    <button onclick="encrypted()" class="encrypt">Encriptar</button>
+                    <button onclick="decrypted()" class="decrypt">Desencriptar</button>
+                </div>
+            </section>
+            <section class="main__box">
+                <textarea class="box__textarea">Ningún mensaje fue encontrado</textarea>
+                <div class="main__buttons">
+                    <button class="copy">Copiar</button>
+                </div>
+            </section>
         </section>
-        <section>
-            <textarea class="box__textarea">Ningún mensaje fue encontrado</textarea>
+        <section class="right">
+            <img class="imagen" src="./assets/Muñeco.png">
         </section>
     </main>
     <footer class="footer">
-        <p class="footer__text">Creado por <a class="footer__link" href="https://github.com/ibAbi-serendipity" target="_blank">Abigail Llana</a></p>
+        <p>Creado por Abigail Llana</p>
     </footer>
 </body>
 </html>
