@@ -86,14 +86,16 @@ header {
     color: #FFFFFF;
     font-size: 16px;
 }
-
+p{
+    margin-top: 8px;
+}
 .main__buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     max-width: 600px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .main__buttons__2 {
