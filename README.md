@@ -3,4 +3,4 @@
 Página web para encriptar y desencriptar textos
 
 
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+![Static Badge](https://img.shields.io/badge/STATUS-COMPLETADO-green)
